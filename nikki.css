@@ -1,0 +1,161 @@
+.wrapper{
+    display:flex;
+    width:1000px;
+    height:765px;
+    margin:0 auto;
+}
+
+.zoon{
+    height:765px;
+    width:800px;
+    margin:0 auto 0 100px;
+    overflow: scroll;
+    border:2px ridge gray;
+    background-color: rgba(188,226,232,0.5);
+}
+ 
+.nikki-zoon{
+    margin-top:0px;
+    margin-bottom:10px;
+    width:200px;
+}
+
+.nikki-zoon p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.data{
+    display:block;
+    margin-top:0px;
+}
+
+.button-area{
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+.button-area-1{
+    margin:0 auto;
+}
+  
+  /*吹き出し*/
+  .balloon_l{
+    margin:0;
+    display:flex;
+    justify-content: flex-start;  /*左よせ*/
+    align-items: flex-start; /*上よせ*/
+    background-color: rgba(188,226,232,0.5);
+    padding-left:10px;
+  }
+  
+  .nikki_gazou{
+    display:block;
+    width:80px;
+    height:auto;
+    border-radius: 30px;
+  }
+
+  .Nikki_content_zoon{
+    margin:auto;
+  }
+
+  .Nikki_content{
+    background: #adf7bf;
+    height:120px;
+    width:auto;
+    margin:auto;
+    border-bottom:solid rgb(170, 162, 162);
+    border-radius: 30px;
+    display:flex;
+  }
+
+  .Nikki_content_texts{
+    margin-left:140px;
+ }
+
+  .Nikki_content_title{
+    margin-top:18px;
+    margin-bottom:0px;
+    width:auto;
+    text-align:center;
+    font-size:18px;
+    font-weight: bold;
+  }
+
+  .Nikki_content_date{
+    margin-top:5px;
+    margin-bottom:0px;
+    padding:0;
+    height:auto;
+    text-align: center;
+    font-size:5px;
+  }
+
+  .Nikki_content_page{
+    margin-top:10px;
+    margin-bottom:0px;
+    padding:0;
+    height:auto;
+    text-align: center;
+    font-size:3px;
+  }
+
+  .Nikki_content_gazou{
+    display:block;
+    height:110px;
+    width:200px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin:0;
+    margin:auto 0 auto 80px;
+    border:solid #838484;
+  }
+
+  .Nikki_content_honbun{
+    margin-top:auto 0;
+    padding-top:10px;
+    height:auto;
+    text-align: left;
+    font-size:10px;
+    white-space: pre-wrap;
+    margin-left:30px;
+  }
+
+  .faceicon img{
+    width: 80px;
+    height: auto;
+    margin-top:10px;
+  }
+
+  .balloon_l .faceicon{
+    margin-right:25px;
+  }
+
+  .says {
+    max-width:500px; /*最大幅は任意*/
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 17px 13px 15px 18px;
+    border-radius: 12px;
+    background: #99dddd;/*色は任意*/
+    box-sizing:border-box;
+    margin-top:10px;
+    line-height:1.5;
+  }
+  .says p{
+    margin:8px 0 0 ; 
+  }
+  .says p:first-child{
+    margin-top:0;
+  }
+  .says:after {
+    content: "";
+    position: absolute;
+    border: 10px solid transparent;
+  }
+  .balloon_l .says:after {
+    left: -26px;
+    border-right: 22px solid #99dddd;
+  }
